@@ -24,19 +24,3 @@ describe('Split Array function', function() {
     })
   }); 
    
-// Index left 0 right 0 
-//   // 2 1 
-
-//   // [1]
-
-// index left 0 right 1
-//   // 2 3 
-
-//   // [1, 2]
-
-// index left 1 right 1
-//   // 4 3
-
-//   // [1, 2, 3]
-
-//   index left 1 right 2

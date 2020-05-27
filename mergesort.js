@@ -29,6 +29,10 @@ function split(wholeArray) {
       if (unsortedArr.length <= 1) {
           return unsortedArr;
       };
-
-      split(unsortedArr);
+      
+      let [left, right] = split(unsortedArr)
+      
+      return merge(mergeSort(left), mergeSort(right))
   }
+
+
